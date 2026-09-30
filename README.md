@@ -110,7 +110,11 @@ The Sentinel workbook JSON used to render the attack map is in [`workbook/attack
 
 ## Project Demo
 
-[▶️ Watch the project demonstration](docs/project-demo.mp4)
+
+
+https://github.com/user-attachments/assets/ca72884a-8fa7-45ab-a525-28364fe06c1c
+
+
 
 ## Tech Stack
 
