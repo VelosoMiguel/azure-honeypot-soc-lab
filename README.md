@@ -122,4 +122,7 @@ https://github.com/user-attachments/assets/ca72884a-8fa7-45ab-a525-28364fe06c1c
 
 ---
 
-Built by [Miguel Veloso](https://VelosoMiguel.github.io) — Computer Science student, aspiring cybersecurity analyst.
+## 👤 Author
+
+**Miguel Veloso**  
+[GitHub](https://github.com/VelosoMiguel) · [LinkedIn](https://www.linkedin.com/in/miguel-veloso-91355b372/)
