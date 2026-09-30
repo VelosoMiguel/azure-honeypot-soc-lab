@@ -1,0 +1,4 @@
+// Total count of failed logon attempts (Event ID 4625) against the honeypot VM
+SecurityEvent
+| where EventID == 4625
+| count

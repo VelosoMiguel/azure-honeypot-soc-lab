@@ -1,0 +1,6 @@
+// Most frequently attempted account names in failed logon events
+SecurityEvent
+| where EventID == 4625
+| summarize count() by Account
+| order by count_ desc
+| take 10

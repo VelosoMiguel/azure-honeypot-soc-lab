@@ -1,0 +1,8 @@
+// Enrich failed logon attempts with GeoIP data and group by country
+// Requires a Sentinel watchlist named "geoip" with columns: network, latitude, longitude, cityname, countryname
+let GeoIPDB_FULL = _GetWatchlist("geoip");
+SecurityEvent
+| where EventID == 4625
+| evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network)
+| summarize count() by countryname
+| order by count_ desc
