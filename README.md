@@ -108,6 +108,10 @@ The Sentinel workbook JSON used to render the attack map is in [`workbook/attack
 - The public IP referenced in earlier testing has been intentionally left out of this repository.
 - This project is a personal learning lab, not a production security control.
 
+## Project Demo
+
+[▶️ Watch the project demonstration](docs/project-demo.mp4)
+
 ## Tech Stack
 
 `Microsoft Azure` · `Azure Virtual Machines` · `Network Security Groups` · `Azure Monitor Agent` · `Log Analytics Workspace` · `Microsoft Sentinel` · `KQL`
