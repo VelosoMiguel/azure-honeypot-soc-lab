@@ -18,7 +18,9 @@ I then built a full logging and detection pipeline to capture, centralize, and v
 - **GeoIP Watchlist** — IP-to-location mapping table uploaded to Sentinel, used to enrich attacker IPs with city/country/coordinates
 - **Attack Map Workbook** — a Sentinel workbook that plots failed login attempts on a world map by geolocation
 
-## Results (first 24 hours)
+## Results — First 24 Hours
+
+All numbers below reflect exactly **24 hours** of exposure, from the moment the VM's RDP port became reachable from the public internet.
 
 | Metric | Value |
 |---|---|
@@ -48,6 +50,20 @@ I then built a full logging and detection pipeline to capture, centralize, and v
 | SERVER | 17,062 |
 
 ![Attack Map](docs/attack-map-screenshot.png)
+
+### Query Results
+
+**Total failed logon attempts (24h):**
+
+![Total Failed Logons Query](docs/query-total-failed-logons.png)
+
+**Top attacking countries (GeoIP enriched):**
+
+![Top Countries Query](docs/query-top-countries.png)
+
+**Top targeted accounts:**
+
+![Top Accounts Query](docs/query-top-accounts.png)
 
 ## Architecture
 
